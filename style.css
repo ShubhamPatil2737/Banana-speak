@@ -53,7 +53,7 @@ textarea{
 .output-txt{
   margin: 2rem auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 #output{
     border: 2px solid gray ;
@@ -63,7 +63,7 @@ textarea{
     margin: 2rem auto;
     padding: 2rem;
     background-color: var(--grey-color);
-    font-size: larger;
+    font-size: 30px;
 }
 .footer {
 
