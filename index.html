@@ -5,30 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
-    <style>
-        textarea{
-            display: block;
-            width: 350px;
-            height: 100px;
-            margin: 1rem;
-            padding: 2rem;
-        }
-        #output{
-            border: 1px solid black;
-            display: block;
-            width: 350px;
-            height: 100px;
-            margin: 1rem;
-            padding: 2rem;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hey! Shubham.</h1>
+   <div class="head-container">
+    <h1> Let's Talk Banana </h1>
+    <img src="images/minions.png" class="minion-img">
+   </div>
     <textarea id="txt-input" placeholder="Type your text here "></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger;"> Output will come here  👇 </div>
+    <div class="btn"><button id="btn-translate">Translate</button></div>
+    <div class="output-txt"> Output will come here  👇 </div>
     <div id="output"></div>
+    <footer class="footer">
+        <div>
+            <h3>About</h3>
+        </div>
+        <p class="footer-text">Are you a fan of minions?
+            So, you might have once wondered to talk in their language.
+            Your wish is our command! This is a fun web app which will convert your English text to minion language.
+            Enjoy! </p>
+    </footer>
+
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
